@@ -1,5 +1,5 @@
 function ListGroup() {
-  let items = ["paris", "New york", "ahmed", "yasmin"];
+  let items = ["paris", "New york", "ahmed", "yasmin", "lovers"];
   items = [];
 
   //if(items.length===0)
@@ -16,7 +16,7 @@ function ListGroup() {
     <>
       <h1>List Group</h1>
       {/* {items.length === 0 ? <p>No items found</p> : null} */}
-      {items.length === 0 && <p>No items found</p>}
+      {items.length === 0 && <p>No items found !</p>}
       <ul className="list-group">
         {items.map((item) => (
           <li className="list-group-item" key={item}>
